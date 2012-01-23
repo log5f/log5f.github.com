@@ -3,6 +3,8 @@
 body
 {
 	text-align: center;
+	
+	background-image: url("images/bg.jpg");
 }
 
 
@@ -13,6 +15,9 @@ body
 	width: 786px; /* 862-39-37 */
 	height: 993px;	/* 1029-20-16 */
 	background-image:url("images/fg.png");
+	
+	margin-left: auto;
+	margin-right: auto;
 	
 	padding-left: 39px;
 	padding-top: 20px;
@@ -63,8 +68,37 @@ body
 	width: 100%;
 	height: 400px;
 	
-	background-color: #66ace8;
-	opacity: 0.2;
-	filter: alpha(opacity=20); /* For IE8 and earlier */
+	vertical-align: bottom;
+	
+	background-image:url("images/buttons-background.png");
+	background-repeat: repeat;
 }
+
+#github
+{
+	float: left; 
+}
+
+#jira
+{
+	float: left; 
+}
+
+#maven
+{
+	float: left; 
+}
+
+
+
+#github-jira-gap
+{
+	width: 60px; 
+}
+
+#jira-maven-gap
+{
+	width: 75px;
+}
+
 
