@@ -128,7 +128,7 @@ body
 #content
 {
 	width: 746px;
-	height: 440px;
+	height: 416px;
 	
 	vertical-align: bottom;
 	
@@ -183,3 +183,17 @@ body
 	
 	text-align: justify;
 }
+
+/**
+ * 	Footer
+ */
+
+#footer
+{
+	text-align: right;
+	vertical-align: bottom;
+	
+	padding: 10px;
+}
+
+
