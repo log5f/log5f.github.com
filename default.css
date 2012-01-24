@@ -7,6 +7,20 @@ body
 	background-image: url("images/bg.jpg");
 }
 
+a
+{
+	color:inherit;
+}
+
+a:visited,a:link 
+{
+	text-decoration:none;
+}
+
+a:hover,a:active 
+{
+	text-decoration:underline;
+}
 
 #main
 {
