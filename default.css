@@ -2,8 +2,6 @@
 
 body
 {
-	text-align: center;
-	
 	background-image: url("images/bg.jpg");
 }
 
@@ -25,6 +23,10 @@ body
 	padding-bottom: 16px;
 }
 
+/**
+ * 	Header
+ */
+
 #header
 {
 	height: 100px;
@@ -33,7 +35,7 @@ body
 	padding-left: 40px;
 	padding-top: 40px;
 	padding-right: 40px;
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 }
 
 
@@ -48,57 +50,136 @@ body
 #welcome
 {
 	float: right;
-	width: 400px;
+	width: 350px;
 	height: 100px;
 	text-align: right;
 	vertical-align: top;
 	
 	font-family: Arial;
 	font-weight: bold;
-	color: #4382b8;
+	font-size: 24px;
+	color: #4382B8;
 }
 
-#content
-{
-	
-}
+/**
+ * 	buttons
+ */
 
 #buttons
 {
-	width: 100%;
-	height: 400px;
+	width: 766px;
+	height: 278px;
 	
 	vertical-align: bottom;
 	
 	background-image:url("images/buttons-background.png");
 	background-repeat: repeat;
+	
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#buttons .caption
+{
+	width: 200px;
+	
+	padding-top: 10px;
 }
 
 #github
 {
-	float: left; 
+	float: left;
+	width: 240px; 
 }
 
 #jira
 {
-	float: left; 
+	float: left;
+	width: 260px; 
 }
 
 #maven
 {
 	float: left; 
+
+	width: 240px; 
 }
 
-
-
-#github-jira-gap
+#buttons .title
 {
-	width: 60px; 
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color: #67ADE9;
 }
 
-#jira-maven-gap
+#buttons .text
 {
-	width: 75px;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color: #4382B8;
 }
 
+/**
+ * 	content
+ */
 
+#content
+{
+	width: 746px;
+	height: 440px;
+	
+	vertical-align: bottom;
+	
+	background-image:url("images/content-background.png");
+	background-repeat: repeat;
+	
+	margin-top: 1px;
+	
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+#content .section
+{
+	width: 200px;
+}
+
+#what-is-it
+{
+	float: left;
+	width: 253px;
+}
+
+#how-to-use
+{
+	float: left;
+	width: 253px;
+}
+
+#where-to-get
+{
+	float: left;
+	width: 200px;
+}
+
+#content .title
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 18px;
+	color: #302345;
+	
+	text-align: left;
+}
+
+#content .text
+{
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 14px;
+	color: #4382B8;
+	
+	text-align: justify;
+}
